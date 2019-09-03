@@ -22,11 +22,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="telegrambots-abilities" />
-        <module name="telegrambots-extensions" />
         <module name="telegrambots-meta" />
-        <module name="telegrambotsextensions" />
+        <module name="telegrambots-extensions" />
         <module name="telegrambots" />
+        <module name="telegrambots-abilities" />
         <module name="telegrambots-chat-session-bot" />
         <module name="telegrambots-spring-boot-starter" />
       </profile>
@@ -39,7 +38,6 @@
       <module name="telegrambots-extensions" target="11" />
       <module name="telegrambots-meta" target="11" />
       <module name="telegrambots-spring-boot-starter" target="11" />
-      <module name="telegrambotsextensions" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="DBNavigator.Project.DataEditorManager">
@@ -785,6 +783,30 @@
           <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
         </formatting-settings>
       </DBN-SQL>
+      <DBN-PSQL>
+        <case-options enabled="false">
+          <option name="KEYWORD_CASE" value="lower" />
+          <option name="FUNCTION_CASE" value="lower" />
+          <option name="PARAMETER_CASE" value="lower" />
+          <option name="DATATYPE_CASE" value="lower" />
+          <option name="OBJECT_CASE" value="preserve" />
+        </case-options>
+        <formatting-settings enabled="false" />
+      </DBN-PSQL>
+      <DBN-SQL>
+        <case-options enabled="false">
+          <option name="KEYWORD_CASE" value="lower" />
+          <option name="FUNCTION_CASE" value="lower" />
+          <option name="PARAMETER_CASE" value="lower" />
+          <option name="DATATYPE_CASE" value="lower" />
+          <option name="OBJECT_CASE" value="preserve" />
+        </case-options>
+        <formatting-settings enabled="false">
+          <option name="STATEMENT_SPACING" value="one_line" />
+          <option name="CLAUSE_CHOP_DOWN" value="chop_down_if_statement_long" />
+          <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
+        </formatting-settings>
+      </DBN-SQL>
     </code_scheme>
   </component>
   <component name="ProjectCodeStyleSettingsManager">
@@ -827,10 +849,9 @@
       <module fileurl="file://$PROJECT_DIR$/telegrambots-extensions/telegrambots-extensions.iml" filepath="$PROJECT_DIR$/telegrambots-extensions/telegrambots-extensions.iml" />
       <module fileurl="file://$PROJECT_DIR$/telegrambots-meta/telegrambots-meta.iml" filepath="$PROJECT_DIR$/telegrambots-meta/telegrambots-meta.iml" />
       <module fileurl="file://$PROJECT_DIR$/telegrambots-spring-boot-starter/telegrambots-spring-boot-starter.iml" filepath="$PROJECT_DIR$/telegrambots-spring-boot-starter/telegrambots-spring-boot-starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/telegrambots-extensions/telegrambotsextensions.iml" filepath="$PROJECT_DIR$/telegrambots-extensions/telegrambotsextensions.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="12" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="PropertiesComponent">
@@ -861,14 +882,9 @@
       </CLASSES>
       <JAVADOC>
         <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.1.0/guice-4.1.0-javadoc.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1-javadoc.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1-sources.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: aopalliance:aopalliance:1.0">
