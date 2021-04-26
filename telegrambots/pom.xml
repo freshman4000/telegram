@@ -76,7 +76,7 @@
         <json.version>20180813</json.version>
         <jackson.version>2.9.9</jackson.version>
         <jacksonanotation.version>2.9.9</jacksonanotation.version>
-        <commonio.version>2.6</commonio.version>
+        <commonio.version>2.7</commonio.version>
     </properties>
 
     <dependencyManagement>
