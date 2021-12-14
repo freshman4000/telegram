@@ -39,7 +39,7 @@
         <mockitojupiter.version>3.0.0</mockitojupiter.version>
         <jacksonbase.version>2.9.9</jacksonbase.version>
         <jackson.version>2.9.9.1</jackson.version>
-        <log4j.version>2.12.0</log4j.version>
+        <log4j.version>2.16.0</log4j.version>
     </properties>
 
     <dependencyManagement>
